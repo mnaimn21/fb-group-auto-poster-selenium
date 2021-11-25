@@ -47,7 +47,7 @@ try :
         
         post_content = driver.find_element_by_class_name('notranslate._5rpu')
         post_content = driver.switch_to_active_element()
-        post_content.send_keys("https://www.facebook.com/roadtaxempire/posts/1557162424621985")
+        post_content.send_keys("POST YOUR TEXT HERE")
         randomTime()
 
 
